@@ -5,7 +5,7 @@
 #SBATCH --ntasks=1                         ## 使用一个任务
 #SBATCH --output ontology_result.out        ## 输出文件名      
 #SBATCH --cpus-per-task=16                  ## 分配给每个进程的CPU核心数
-#SBATCH --gres=gpu:1                        ## 使用一个GPU
+#SBATCH --gres=gpu:2                        ## 使用一个GPU
 
 # 设置模型和数据参数
 MODEL_PATH=/mnt/workspace/qinaoxiang/KnowledgeCircuits-main/acdc/models/gpt2-medium
